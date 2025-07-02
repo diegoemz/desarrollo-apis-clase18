@@ -17,7 +17,7 @@ Se creó un endpoint `/frases` que devuelve una lista de frases motivacionales.
 ## Ejercicio 2 – Nivel Intermedio
 
 **Descripción:**  
-Se desarrolló un endpoint `/peliculas/:año` que obtiene películas por año desde la API pública de [The Movie Database (TMDB)](https://developer.themoviedb.org/).
+Se desarrolló un endpoint `/peliculas/:año` que obtiene películas por año desde la API pública.
 
 - Los resultados de cada año consultado se almacenan en Redis usando una **clave dinámica**.
 - El tiempo de vida de cada resultado (TTL) es de **30 segundos**.
